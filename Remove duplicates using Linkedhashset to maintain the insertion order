@@ -1,0 +1,13 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        
+        int arr[] = new int[]{11,16,12,12,14,15,13,14};
+        Set<Integer> set = new LinkedHashSet<>();
+        for(int num : arr){
+            set.add(num);
+        }
+        System.out.print(set);
+        
+    }
+}
